@@ -40,7 +40,7 @@ else{
 	exit;
 }
 
-/*Даанные для подключения к БД*/
+/*Данные для подключения к БД*/
 $db_host = 'localhost';
 $db_login = 'root';
 $db_pass = '';
