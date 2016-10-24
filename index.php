@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Index</title>
+	<title>Добавление данных</title>
 	<meta charset="utf-8">
 	<style type="text/css">
 		body{
-			background-image: url(images.png) ;
+			background-image: url('image.png') ;
 		}
 		.center{
 			width: 340px;
@@ -27,12 +27,11 @@ if(isset($_POST['first_name']) && isset($_POST['last_name'])
 	&& isset($_POST['email']) && isset($_POST['age']) 
 	&& isset($_POST['eduform'])){
 
-	$first_name = $_POST['first_name'];
-	$last_name = $_POST['last_name'];
-	$email = $_POST['email'];
-	$age = $_POST['age'];
-	$eduform = $_POST['eduform'];
-
+	$first_name = htmlentities($_POST['first_name']);
+	$last_name = htmlentities($_POST['last_name']);
+	$email = htmlentities($_POST['email']);
+	$age = htmlentities($_POST['age']);
+	$eduform = htmlentities($_POST['eduform']);
 }
 else{
 	echo "Неверные данные<br><br>";
@@ -71,7 +70,8 @@ else{
 	echo "Ваш e-mail: $email<br>";
 	echo "Ваш возраст: $age<br>";
 	echo "Выбранный курс: $eduform<br><br>";
-	echo "Данные добавлены!"; 
+	echo "Данные добавлены!<br>";
+	echo "<a href='main.html'>Вернуться на главную</a>"; 
 }
 
 ?>

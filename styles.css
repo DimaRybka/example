@@ -1,98 +1,91 @@
 body{
-			background-image: url(1.png) ;
-		}
+	background-image: url('image.png') ;
+}
 
-		form{
-			width: 340px; /* Ширина элемента в пикселах */
-		    padding: 10px; /* Поля вокруг текста */
- 		    margin: auto; /* Выравниваем по центру */
-		    background: #dcdfe3; /* Цвет фона */
-		    border: 1px solid #102f56;
-		    border-radius: 5px;
-		}
-		.block1{
-			width: 920; /* Ширина элемента в пикселах */
-		    padding: 10px; /* Поля вокруг текста */
- 		    margin: auto; /* Выравниваем по центру */
-		    background: #86b7f3; /* Цвет фона */
-		    border: 1px solid;
-		    border-color: #102f56;
-		}
+form{
+	width: 340px;
+	padding: 10px;
+ 	margin: auto;
+	background: #dcdfe3;
+	border: 1px solid #102f56;
+	border-radius: 5px;
+}
 
-		.parent{
-			width: 920px;
-			margin: auto;
-			background: #dbe4ef;
-		}
+input{
+	font-size: 15px;
+	outline: none;
+}
 
-		/*form{
-			margin: 0 auto;
-	        margin-top: 20px;
-		}*/
+input[name="first_name"],
+input[name="last_name"],
+input[name="email"],
+input[name="age"]{
+	color: #777;
+	padding-left: 10px;
+	margin: 10px;
+	margin-top: 12px;
+	margin-left: 18px;
+	width: 290px;
+	height: 35px;
+	border: 1px solid #878a8e;
+	border-radius: 2px;
+}
 
-		input{
-			font-size: 15px;
-	        outline: none;
-		}
+input[name="first_name"]:hover,
+input[name="last_name"]:hover,
+input[name="email"]:hover,
+input[name="age"]:hover{
+	border: 1px solid #37557a;
+}
 
-		input[name="first_name"],
-		input[name="last_name"],
-		input[name="email"],
-		input[name="age"]{
-			color: #777;
-			padding-left: 10px;
-			margin: 10px;
-			margin-top: 12px;
-			margin-left: 18px;
-			width: 290px;
-			height: 35px;
-			border: 1px solid #878a8e;
-			border-radius: 2px;
-		}
+input[name="first_name"]:focus,
+input[name="last_name"]:focus,
+input[name="email"]:focus,
+input[name="age"]:focus{
+	border: 1px solid #102f56;
+}
 
-		input[name="first_name"]:hover,
-		input[name="last_name"]:hover,
-		input[name="email"]:hover,
-		input[name="age"]:hover{
-		border: 1px solid #37557a;
-		}
+input[type="radio"]{
+	margin-left: 18px;
+	padding-top: 10px;
+}
 
-		input[name="first_name"]:focus,
-		input[name="last_name"]:focus,
-		input[name="email"]:focus,
-		input[name="age"]:focus{
-		border: 1px solid #102f56;
-		}
+input[type='submit']{
+	margin-left: 120px;
+	width: 100px;
+	text-align: center;
+}
 
-		input[type="radio"]{
-			margin-left: 18px;
-			padding-top: 10px;
-		}
+input[type='submit']:hover{
+	background-color: #d2d6db;
+	border-color: #969798;
+}
 
+label{
+	display: inline-block;
+	margin-left: 18px;
+	padding-top: 10px;
+}
 
+.block1{
+width: 920;
+padding: 10px;
+margin: auto;
+background: #86b7f3;
+border: 1px solid;
+border-color: #102f56;
+}
 
+.parent{
+	width: 920px;
+	margin: auto;
+	background: #dbe4ef;
+}
+		
+#main{
+	font-size: 20px;
+	font-style: oblique;
+	margin-left: 120px;
+}
 
-		label {
-			display: inline-block;
-			margin-left: 18px;
-			padding-top: 10px;
-			
-		}
-
-		#main{
-			font-size: 20px;
-			font-style: oblique;
-			margin-left: 120px;
-
-		}
-
-		input[type='submit']{
-			margin-left: 120px;
-			width: 100px;
-			text-align: center;
-		}
-
-		input[type='submit']:hover{
-			background-color: #d2d6db;
-			border-color: #969798;
-		}
+		
