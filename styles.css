@@ -66,21 +66,6 @@ label{
 	margin-left: 18px;
 	padding-top: 10px;
 }
-
-.block1{
-width: 920;
-padding: 10px;
-margin: auto;
-background: #86b7f3;
-border: 1px solid;
-border-color: #102f56;
-}
-
-.parent{
-	width: 920px;
-	margin: auto;
-	background: #dbe4ef;
-}
 		
 #main{
 	font-size: 20px;
