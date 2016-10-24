@@ -5,8 +5,9 @@
 	<meta charset="utf-8">
 	<style type="text/css">
 		body{
-			background-image: url('image.png') ;
+			background-image: url('image.png');
 		}
+		
 		.center{
 			width: 340px;
 		    padding: 10px;
