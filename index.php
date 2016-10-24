@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<style type="text/css">
 		body{
-			background-image: url(1.png) ;
+			background-image: url(images.png) ;
 		}
 		.center{
 			width: 340px;
