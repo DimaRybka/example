@@ -10,12 +10,12 @@
 		
 		.center{
 			width: 340px;
-		    padding: 10px;
- 		    margin-top:200px;
- 		    margin-left: 500px;
-		    background: #dcdfe3;
-		    border: 1px solid #102f56;
-		    border-radius: 5px;
+		    	padding: 10px;
+ 		    	margin-top:200px;
+ 		    	margin-left: 500px;
+		   	background: #dcdfe3;
+		    	border: 1px solid #102f56;
+		    	border-radius: 5px;
 		}
 	</style>
 </head>
